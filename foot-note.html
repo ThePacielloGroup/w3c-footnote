@@ -1,6 +1,7 @@
 <link rel="import" href="bower_components/polymer/polymer.html">
 
 <polymer-element name="foot-note" extends="footer">
+<template>
 <style>
 	:host .label {
 position: absolute !important;
@@ -15,6 +16,8 @@ overflow: hidden;
 
 
 </style>
+	<div><span class="label">Footnote:</span><content></content></div>
+</template>	
 	<script>
 		Polymer('foot-note', {
 			ready: function() {
@@ -23,5 +26,4 @@ overflow: hidden;
 			},
 		});
 	</script>
-    <div><span class="label">Footnote:</span><content></content></div>
 </polymer-element>
