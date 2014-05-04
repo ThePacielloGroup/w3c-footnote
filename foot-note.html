@@ -3,9 +3,6 @@
 <polymer-element name="foot-note" extends="footer">
 <template>
 <style>
-:host {
-	border:thin solid #CCC;
-	}
 	:host .label {
 position: absolute !important;
 clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -16,13 +13,6 @@ height: 1px !important;
 width: 1px !important;
 overflow: hidden;
 display:inline;
-}
-
-:host:before{
-  content:url('footnote.png');
-  display:inline;
-  margin-left:-18px;
-  float:left;
 }
 </style>
 	<div><span class="label">Footnote:</span><content></content></div>
