@@ -1,35 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Foot note Demo</title>
-	<script src="bower_components/platform/platform.js"></script>
-	<link rel="import" href="foot-note.html">
-    <style>
-	body {font-family:Verdana, Geneva, sans-serif}
-	
-	 blockquote {width:35em}
-    blockquote:before{
-  content:url('blockquote.png');
-  display:inline;
-  margin-left:-50px;
- float:left;
+<meta charset="UTF-8">
+<title>Foot note Demo</title>
+<script src="bower_components/platform/platform.js"></script>
+<link rel="import" href="foot-note.html">
+<style>
+body {font-family:Verdana, Geneva, sans-serif}	
+blockquote {width:35em}
+blockquote:before{
+content:url('blockquote.png');
+display:inline;
+margin-left:-50px;
+float:left;
 }
-    
-    </style>
+</style>
 </head>
 <body unresolved>
-	<blockquote>
- <p>... she said she would not sign any deposition containing the word "amorous" 
- instead of "advances". For her the difference was of crucial significance, 
- and one of the reasons she had separated from her husband was that he had never been 
- amorous but had consistently made advances.</p>
- 
- <footer itemscope itemtype="http://schema.org/Book" is="foot-note">
-  <span itemprop="author">Heinrich Böll</span>,
-  <span itemprop="name">The Lost Honor of Katharina Blum</span>, 
-  <span itemprop="datePublished">January 1, 1974</span>
- </footer>
- </blockquote>
+<blockquote>
+<p>... she said she would not sign any deposition containing the word "amorous" 
+instead of "advances". For her the difference was of crucial significance, and 
+one of the reasons she had separated from her husband was that he had never been 
+amorous but had consistently made advances.</p>
+<footer is="foot-note">
+Heinrich Böll, The Lost Honor of Katharina Blum, January 1, 1974
+</footer>
+</blockquote>
 </body>
 </html>
