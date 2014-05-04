@@ -5,7 +5,17 @@
   <title>Foot note Demo</title>
 	<script src="bower_components/platform/platform.js"></script>
 	<link rel="import" href="foot-note.html">
-    <style> blockquote {width:50em}</style>
+    <style>
+	body {font-family:Verdana, Geneva, sans-serif}
+	
+	 blockquote {width:30em}
+    blockquote:before{
+  content:url('blockquote.png');
+  display:inline;
+  margin-left:-16px;
+}
+    
+    </style>
 </head>
 <body unresolved>
 	<blockquote>
