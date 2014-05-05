@@ -1,9 +1,9 @@
-foot-note custom element
+w3c-footnote custom element
 ========================
 
 Extends the HTML footer (http://www.w3.org/html/wg/drafts/html/master/sections.html#the-footer-element) element to identify its use for footnotes. Adds text (offscreen) and icon via CSS. adds ARIA role=contentinfo
 
-demo: http://thepaciellogroup.github.io/foot-note/
+demo: http://thepaciellogroup.github.io/w3c-footnote/
 
 The intent of this custom element is to provide a semantic identifier for footnote content, which does not currently have a dedicated element in HTML [1]
 
