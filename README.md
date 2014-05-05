@@ -1,7 +1,7 @@
 w3c-footnote custom element
 ========================
 
-Extends the HTML footer (http://www.w3.org/html/wg/drafts/html/master/sections.html#the-footer-element) element to identify its use for footnotes. Adds text (offscreen) and icon via CSS. adds ARIA role=contentinfo
+Extends the HTML footer (http://www.w3.org/html/wg/drafts/html/master/sections.html#the-footer-element) element to identify its use for footnotes. Adds tole label text (offscreen) and icon via CSS. adds ARIA [role=note](http://www.w3.org/TR/wai-aria/roles#note)
 
 demo: http://thepaciellogroup.github.io/w3c-footnote/
 
